@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Google">
+    <test name="Login and Registration Test">
+        <classes>
+            <class name="TestingBrowser.LoginTest">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                    <include name="testInvalidLogin"/>
+                </methods>
+            </class>
+            <class name="TestingBrowser.RegistrationTest">
+                <methods>
+                    <include name="testSuccessfulRegistration"/>
+                    <include name="testInvalidRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
