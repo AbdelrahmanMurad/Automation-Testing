@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 // username = admin
 // password = password123
 
-public class UserAuthenticationTest {
+public class UserAuthenticationTest2 {
 
 	UserAuthentication user = new UserAuthentication();
 
@@ -17,8 +17,8 @@ public class UserAuthenticationTest {
 		boolean expectedResult = user.authenticate(username, password);
 		boolean actualResult = username.equals("admin") && password.equals("password123");
 		
-		Reporter.log("Test 1 for authentication");
-		
+		Reporter.log("Test 2 for authentication");
+
 		Assert.assertEquals(actualResult, expectedResult, "Authentication result mismatch!");
 	}
 

@@ -13,6 +13,5 @@
 	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/Jars Used/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/Jars Used/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/Jars Used/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/Jars Used/slf4j-simple-2.0.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

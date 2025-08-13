@@ -3,15 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestNG_HWs.FruitShop">
+      <class name="TestNG_HWs.UserAuthenticationTest2">
         <methods>
-          <include name="bye"/>
-          <include name="welcome"/>
-          <include name="secondItem"/>
-          <include name="addingMango"/>
-          <include name="cartLength"/>
+          <include name="testAuthenticate" invocation-numbers="10 11"/>
         </methods>
-      </class> <!-- TestNG_HWs.FruitShop -->
+      </class> <!-- TestNG_HWs.UserAuthenticationTest2 -->
+      <class name="TestNG_HWs.UserAuthenticationTest">
+        <methods>
+          <include name="testAuthenticate" invocation-numbers="10 11"/>
+        </methods>
+      </class> <!-- TestNG_HWs.UserAuthenticationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
