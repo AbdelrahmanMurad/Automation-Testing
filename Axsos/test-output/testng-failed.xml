@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_HWs.UserAuthenticationTest2">
+      <class name="DDT_Excel.PrimerNumberCheckerTest">
         <methods>
-          <include name="testAuthenticate" invocation-numbers="10 11"/>
+          <include name="organizeColumns"/>
+          <include name="testPrime" invocation-numbers="6 9"/>
         </methods>
-      </class> <!-- TestNG_HWs.UserAuthenticationTest2 -->
-      <class name="TestNG_HWs.UserAuthenticationTest">
-        <methods>
-          <include name="testAuthenticate" invocation-numbers="10 11"/>
-        </methods>
-      </class> <!-- TestNG_HWs.UserAuthenticationTest -->
+      </class> <!-- DDT_Excel.PrimerNumberCheckerTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

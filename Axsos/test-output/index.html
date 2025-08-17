@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-500349335\testng-customsuite.xml</span>
+                    <span>C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1362294647\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 24 is prime, 24, true)">testPrime(Check if the number 24 is prime, 24, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 8 is prime, 8, false)">testPrime(Check if the number 8 is prime, 8, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +122,42 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestNG_HWs.FruitShop" class="method navigator-link" hash-for-method="addingMango">addingMango</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 2 is prime, 2, true)">testPrime(Check if the number 2 is prime, 2, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestNG_HWs.FruitShop" class="method navigator-link" hash-for-method="cartLength">cartLength</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 22 is prime, 22, false)">testPrime(Check if the number 22 is prime, 22, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestNG_HWs.FruitShop" class="method navigator-link" hash-for-method="noPineapple">noPineapple</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number -1 is prime, -1, false)">testPrime(Check if the number -1 is prime, -1, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestNG_HWs.FruitShop" class="method navigator-link" hash-for-method="secondItem">secondItem</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 3 is prime, 3, true)">testPrime(Check if the number 3 is prime, 3, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 7 is prime, 7, true)">testPrime(Check if the number 7 is prime, 7, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 0 is prime, 0, false)">testPrime(Check if the number 0 is prime, 0, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 1 is prime, 1, false)">testPrime(Check if the number 1 is prime, 1, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DDT_Excel.PrimerNumberCheckerTest" class="method navigator-link" hash-for-method="testPrime(Check if the number 20 is prime, 20, false)">testPrime(Check if the number 20 is prime, 20, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -133,38 +172,170 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestNG_HWs.FruitShop</span>
+              <img src="failed.png"/>
+              <span class="class-name">DDT_Excel.PrimerNumberCheckerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addingMango">
-                  </a> <!-- addingMango -->
-                  <span class="method-name">addingMango</span>
+                  <a name="testPrime(Check if the number 24 is prime, 24, true)">
+                  </a> <!-- testPrime(Check if the number 24 is prime, 24, true) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 24 is prime,24,true)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Prime Operation FAILED !! expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1079)
+	at org.testng.Assert.assertEquals(Assert.java:1043)
+	at DDT_Excel.PrimerNumberCheckerTest.testPrime(PrimerNumberCheckerTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="cartLength">
-                  </a> <!-- cartLength -->
-                  <span class="method-name">cartLength</span>
+                  <a name="testPrime(Check if the number 8 is prime, 8, false)">
+                  </a> <!-- testPrime(Check if the number 8 is prime, 8, false) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 8 is prime,8,false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Prime Operation FAILED !! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1079)
+	at org.testng.Assert.assertEquals(Assert.java:1043)
+	at DDT_Excel.PrimerNumberCheckerTest.testPrime(PrimerNumberCheckerTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DDT_Excel.PrimerNumberCheckerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrime(Check if the number 2 is prime, 2, true)">
+                  </a> <!-- testPrime(Check if the number 2 is prime, 2, true) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 2 is prime,2,true)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="noPineapple">
-                  </a> <!-- noPineapple -->
-                  <span class="method-name">noPineapple</span>
+                  <a name="testPrime(Check if the number 22 is prime, 22, false)">
+                  </a> <!-- testPrime(Check if the number 22 is prime, 22, false) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 22 is prime,22,false)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="secondItem">
-                  </a> <!-- secondItem -->
-                  <span class="method-name">secondItem</span>
+                  <a name="testPrime(Check if the number -1 is prime, -1, false)">
+                  </a> <!-- testPrime(Check if the number -1 is prime, -1, false) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number -1 is prime,-1,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrime(Check if the number 3 is prime, 3, true)">
+                  </a> <!-- testPrime(Check if the number 3 is prime, 3, true) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 3 is prime,3,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrime(Check if the number 7 is prime, 7, true)">
+                  </a> <!-- testPrime(Check if the number 7 is prime, 7, true) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 7 is prime,7,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrime(Check if the number 0 is prime, 0, false)">
+                  </a> <!-- testPrime(Check if the number 0 is prime, 0, false) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 0 is prime,0,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrime(Check if the number 1 is prime, 1, false)">
+                  </a> <!-- testPrime(Check if the number 1 is prime, 1, false) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 1 is prime,1,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrime(Check if the number 20 is prime, 20, false)">
+                  </a> <!-- testPrime(Check if the number 20 is prime, 20, false) -->
+                  <span class="method-name">testPrime</span>
+                  <span class="parameters">(Check if the number 20 is prime,20,false)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -172,7 +343,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-500349335\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1362294647\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,7 +352,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestNG_HWs.FruitShop&quot;/&gt;
+      &lt;class name=&quot;DDT_Excel.PrimerNumberCheckerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -221,28 +392,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'cartLength')
-data.setCell(0, 2, 'TestNG_HWs.FruitShop')
-data.setCell(0, 3, 21);
+data.setCell(0, 1, 'testPrime')
+data.setCell(0, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(0, 3, 44);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'noPineapple')
-data.setCell(1, 2, 'TestNG_HWs.FruitShop')
-data.setCell(1, 3, 13);
+data.setCell(1, 1, 'testPrime')
+data.setCell(1, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(1, 3, 36);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addingMango')
-data.setCell(2, 2, 'TestNG_HWs.FruitShop')
-data.setCell(2, 3, 10);
+data.setCell(2, 1, 'testPrime')
+data.setCell(2, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(2, 3, 17);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'secondItem')
-data.setCell(3, 2, 'TestNG_HWs.FruitShop')
-data.setCell(3, 3, 5);
+data.setCell(3, 1, 'testPrime')
+data.setCell(3, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(3, 3, 14);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPrime')
+data.setCell(4, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(4, 3, 13);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPrime')
+data.setCell(5, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(5, 3, 12);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPrime')
+data.setCell(6, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(6, 3, 11);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPrime')
+data.setCell(7, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(7, 3, 10);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPrime')
+data.setCell(8, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(8, 3, 9);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPrime')
+data.setCell(9, 2, 'DDT_Excel.PrimerNumberCheckerTest')
+data.setCell(9, 3, 6);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 ms</span>
+              <span class="suite-total-time">Total running time: 172 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -268,35 +463,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestNG_HWs.FruitShop</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">welcome</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              <div class="chronological-class-name">DDT_Excel.PrimerNumberCheckerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">addItems</span>
-                <span class="method-start">110 ms</span>
+                <span class="method-name">organizeColumns</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">cartLength</span>
-                <span class="method-start">145 ms</span>
+                <span class="method-name">testPrime(Check if the number -1 is prime, -1, false)</span>
+                <span class="method-start">82 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">noPineapple</span>
-                <span class="method-start">189 ms</span>
+                <span class="method-name">testPrime(Check if the number 0 is prime, 0, false)</span>
+                <span class="method-start">135 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">secondItem</span>
-                <span class="method-start">209 ms</span>
+                <span class="method-name">testPrime(Check if the number 1 is prime, 1, false)</span>
+                <span class="method-start">151 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">addingMango</span>
-                <span class="method-start">226 ms</span>
+                <span class="method-name">testPrime(Check if the number 2 is prime, 2, true)</span>
+                <span class="method-start">169 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-suite after">
-                <span class="method-name">bye</span>
-                <span class="method-start">556 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="test-method">
+                <span class="method-name">testPrime(Check if the number 3 is prime, 3, true)</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrime(Check if the number 7 is prime, 7, true)</span>
+                <span class="method-start">204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPrime(Check if the number 8 is prime, 8, false)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrime(Check if the number 20 is prime, 20, false)</span>
+                <span class="method-start">278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrime(Check if the number 22 is prime, 22, false)</span>
+                <span class="method-start">300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPrime(Check if the number 24 is prime, 24, true)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
