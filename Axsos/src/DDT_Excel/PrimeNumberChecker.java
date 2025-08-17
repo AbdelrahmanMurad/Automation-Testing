@@ -13,13 +13,13 @@ public class PrimeNumberChecker {
 //			System.out.println("Not Prime");
 			return false;
 		}
-		
+
 		if (number == 2) {
 //			System.out.println("Not Prime");
 			return true;
 		}
- 
-		for (int index = 3; index < number; index+=2) {			
+
+		for (int index = 3; index < number; index++) {
 			if (number % index == 0) {
 //				System.out.println("Not Prime");
 				return false;
@@ -28,23 +28,23 @@ public class PrimeNumberChecker {
 //		System.out.println("Prime");
 		return true;
 	}
-	}
+}
 
 /*
- 
+ * O(√n)
+	
 	public boolean isPrime(int number) {
 		if (number <= 1) {
 //			System.out.println("Not Prime");
 			return false;
 		}
-		
+
 		if (number == 2) {
 //			System.out.println("Not Prime");
-			return false;
+			return true;
 		}
 
-		// dont enclude evene numbers
-		for (int index = 3; index < number; index+=2) {			
+		for (int index = 3; index < number; index += 2) {
 			if (number % index == 0) {
 //				System.out.println("Not Prime");
 				return false;
@@ -52,7 +52,6 @@ public class PrimeNumberChecker {
 		}
 //		System.out.println("Prime");
 		return true;
-	}
-
-
-*/
+	} * 
+ * 
+ */
