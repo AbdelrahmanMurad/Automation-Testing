@@ -25,6 +25,7 @@ public class PrimerNumberCheckerTest {
 	@DataProvider(name = "prime")
 	public Iterator<Object[]> testPrimeProvide() {
 		try {
+			@SuppressWarnings("resource")
 			Scanner scanner = new Scanner(new File(CSV_FILE)).useDelimiter(DELIMETER);
 			if (scanner.hasNextLine()) {
 				scanner.nextLine();

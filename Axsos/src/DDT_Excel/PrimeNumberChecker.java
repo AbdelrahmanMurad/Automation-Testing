@@ -1,11 +1,5 @@
 package DDT_Excel;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 public class PrimeNumberChecker {
 
 	public boolean isPrime(int number) {

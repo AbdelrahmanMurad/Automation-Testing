@@ -6,7 +6,7 @@
       <class name="DDT_Excel.PrimerNumberCheckerTest">
         <methods>
           <include name="organizeColumns"/>
-          <include name="testPrime" invocation-numbers="6 9"/>
+          <include name="testPrime" invocation-numbers="9"/>
         </methods>
       </class> <!-- DDT_Excel.PrimerNumberCheckerTest -->
     </classes>
